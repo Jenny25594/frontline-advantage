@@ -3,6 +3,10 @@ const nextConfig = {
   reactStrictMode: true,
   images: {
     domains: ['images.unsplash.com'],
+    unoptimized: true,
+  },
+  experimental: {
+    scrollRestoration: true,
   },
 };
 
